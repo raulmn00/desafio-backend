@@ -21,6 +21,7 @@ export class Restaurante {
     @ApiProperty()
     @IsString()
     restaurante_type: string;
+    
     @Column({ name: 'restaurante_address', nullable: false })
     @ApiProperty()
     @IsString()
